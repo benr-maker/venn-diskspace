@@ -1,0 +1,6 @@
+src-tauri/target/
+node_modules/
+dist/
+venv/
+*.spec
+__pycache__/

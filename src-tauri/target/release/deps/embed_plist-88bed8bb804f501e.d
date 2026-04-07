@@ -1,7 +1,0 @@
-/Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/release/deps/embed_plist-88bed8bb804f501e.d: /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embed_plist-1.2.2/src/lib.rs
-
-/Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/release/deps/libembed_plist-88bed8bb804f501e.rlib: /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embed_plist-1.2.2/src/lib.rs
-
-/Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/release/deps/libembed_plist-88bed8bb804f501e.rmeta: /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embed_plist-1.2.2/src/lib.rs
-
-/Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embed_plist-1.2.2/src/lib.rs:
