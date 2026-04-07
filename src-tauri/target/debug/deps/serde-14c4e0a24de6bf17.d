@@ -1,0 +1,14 @@
+/Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/debug/deps/serde-14c4e0a24de6bf17.d: /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/debug/build/serde-23fcc076a5b7eed8/out/private.rs
+
+/Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/debug/deps/libserde-14c4e0a24de6bf17.rlib: /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/debug/build/serde-23fcc076a5b7eed8/out/private.rs
+
+/Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/debug/deps/libserde-14c4e0a24de6bf17.rmeta: /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/debug/build/serde-23fcc076a5b7eed8/out/private.rs
+
+/Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/Users/johnromo/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/debug/build/serde-23fcc076a5b7eed8/out/private.rs:
+
+# env-dep:OUT_DIR=/Users/johnromo/Projects/VENN_DISKSPACE/VER5/src-tauri/target/debug/build/serde-23fcc076a5b7eed8/out
