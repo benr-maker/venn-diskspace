@@ -1,0 +1,19 @@
+
+release.sh — sets up prerequisites, builds, and publishes a GitHub release
+
+  It will ask you two questions:                                                                                     
+  - Repository name (defaults to venn-diskspace)                                                                     
+  - Version number (defaults to 1.0.0)                                                                               
+                                            
+
+1. Check prerequisites (Homebrew, Node, Rust) and install any that are missing                                     
+  2. Run make setup and make build to verify the app builds locally
+  3. Initialize the git repo, add .gitignore, make the initial commit                                                
+  4. Create the GitHub repository using the GitHub CLI (gh)                                                          
+  5. Push the code                                                                                                   
+  6. Tag and push v1.0.0 to trigger the CI builds                                                                    
+                                                                                                                     
+  The only things that can't be automated:                                                                         
+  - GitHub account creation — must be done manually once                                                             
+  - macOS Automation permission (Terminal → Finder) — requires manual approval in System Settings
+

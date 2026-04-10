@@ -18,29 +18,8 @@
       white-space: nowrap; max-width: 90vw; overflow: hidden; text-overflow: ellipsis;
     }
     #status { display: inline-flex; align-items: center; gap: 8px; }
-    .scan-spinner {
-      width: 14px; height: 14px; border-radius: 50%;
-      border: 3px solid transparent;
-      border-top-color: #e53935;
-      border-right-color: #fb8c00;
-      border-bottom-color: #43a047;
-      border-left-color: #1e88e5;
-      animation: spin 0.7s linear infinite;
-    }
     .scan-text {
-      background: linear-gradient(90deg, #e53935, #fb8c00, #fdd835, #43a047, #1e88e5, #8e24aa);
-      background-size: 200%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: shimmer 1.2s linear infinite;
-      letter-spacing: 2px;
-    }
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-    @keyframes shimmer {
-      0%   { background-position: 0% }
-      100% { background-position: 200% }
+      font-size: 13px; color: #e65c00; letter-spacing: 2px;
     }
   </style>
 </head>
@@ -79,8 +58,7 @@
     }
 
     function setStatusScanning() {
-      statusEl.innerHTML =
-        '<div class="scan-spinner"></div><span class="scan-text">SCANNiNG</span>';
+      statusEl.innerHTML = '<span class="scan-text">SCANNiNG...</span>';
     }
 
     function childPath(name) {
@@ -151,12 +129,16 @@
       const dir = document.getElementById("dirInput").value.trim();
       if (!dir) return alert("Please enter a directory path.");
       setStatusScanning();
+      const scanStart = Date.now();
       requestAnimationFrame(() => {
         invoke("scan_directory", { path: dir })
           .then(data => {
-            history = [];
-            setStatus(`Showing: ${dir}`);
-            render(data, dir);
+            const delay = Math.max(0, 400 - (Date.now() - scanStart));
+            setTimeout(() => {
+              history = [];
+              setStatus(`Showing: ${dir}`);
+              render(data, dir);
+            }, delay);
           })
           .catch(err => {
             setStatus("Error");
